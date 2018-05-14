@@ -1,3 +1,9 @@
 info:
   profile: default
 from: aabc
+spring:
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.214.138:9092
+          zk-nodes: 192.168.214.138:2181
